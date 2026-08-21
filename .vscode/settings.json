@@ -1,7 +1,7 @@
 {
     "code-runner.clearPreviousOutput": true,
     "code-runner.executorMap": {
-        "lua": "cd $dir && & \"lovec\" \".\""
+        "lua": "cd $dir && \"love\" \".\""
     },
     "code-runner.ignoreSelection": true,
     "code-runner.runInTerminal": true,
