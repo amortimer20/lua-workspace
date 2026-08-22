@@ -1,7 +1,8 @@
 {
     "code-runner.clearPreviousOutput": true,
     "code-runner.executorMap": {
-        "lua": "cd $dir && & \"lovec\" \".\"" // Windows
+        // "lua": "cd $dir && & \"lovec\" \".\"" // Windows
+        "lua": "cd $dir; & \"lovec\" \".\""
         // "lua": "cd $dir && \"love\" \".\"" // Mac/Linux
     },
     "code-runner.ignoreSelection": true,
